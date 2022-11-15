@@ -1,0 +1,3 @@
+[submodule "dataset_utils/Kinetics/kenetics_downloader"]
+	path = dataset_utils/Kinetics/kenetics_downloader
+	url = https://github.com/HyeongminMoon/kenetics_downloader
