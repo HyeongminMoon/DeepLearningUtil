@@ -4,6 +4,15 @@
 ## dataset_utils
 dataset에 관련된 것들
 
+### Kinetics
+Kinetics Dataset 관련
+
+#### Kinetics_video_dataset.py
+파이토치 기반 Dataset
+
+#### kenetics_downloader
+속도 100배 이상 개선한 kenetics downloader
+
 ### OpenImagev6+
 Open Image Dataset v6+ 관련
 
