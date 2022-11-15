@@ -4,6 +4,9 @@
 ## dataset_utils
 dataset에 관련된 것들
 
+### OpenImagev6+
+Open Image Dataset v6+ 관련
+
 #### get_dataset.ipynb:
 Cellphone Segmentation Set Download Example 작성
 1. 데이터셋 다운로드 툴인 fiftyone으로 Open Image Dataset v6+를 다운로드(Segmentation)
@@ -17,7 +20,7 @@ Fiftyone으로 부터 다운로드 받은 데이터를 확인
 #### split_dataset.ipynb
 train, validation set으로 나누는 코드. 범용성이 낮아 수정 필요있음. (이미지와 텍스트의 이름과 개수가 일치해야만 제대로 작동함)
 
-#### visualize_video.ipynb
+### visualize_video.ipynb
 mediapy를 활용하여 비디오를 notebook 내에서 가시화 하는 함수
 
 ## augment_transform
@@ -44,5 +47,12 @@ copy-paste augmentation을 구현. 아직은 범용성이 낮지만, 인수를 �
 3. (미구현) coco format(xywh)
 * (참고) open image dataset은 특이하게도 xxyy로 되어있음
 
-#### custom_transforms.py
+### custom_transforms.py
 U2Net기반으로 사용했던 custom transform 함수들을 작성해놓은 코드
+
+
+## openset
+Open Set Recognition(OSR)에 관련된 것들
+
+### openmax_mohomin.py
+Openmax 알고리즘 작성
