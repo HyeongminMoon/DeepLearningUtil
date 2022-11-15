@@ -17,7 +17,8 @@ Fiftyone으로 부터 다운로드 받은 데이터를 확인
 #### split_dataset.ipynb
 train, validation set으로 나누는 코드. 범용성이 낮아 수정 필요있음. (이미지와 텍스트의 이름과 개수가 일치해야만 제대로 작동함)
 
-
+#### visualize_video.ipynb
+mediapy를 활용하여 비디오를 notebook 내에서 가시화 하는 함수
 
 ## augment_transform
 Augmentation과 Transform에 관련된 것들
