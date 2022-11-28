@@ -10,6 +10,15 @@ copy-paste augmentation을 구현. 아직은 범용성이 낮지만, 인수를 �
 - ### custom_transforms.py
 U2Net기반으로 사용했던 custom transform 함수들을 작성해놓은 코드
 
+## [dataset_utils](https://github.com/HyeongminMoon/DeepLearningUtil/tree/main/dataset_utils)
+dataset에 관련된 것들
+
+- ### Kinetics
+Kinetics Dataset 관련
+
+- ### OpenImagev6+
+Open Image Dataset v6+ 관련
+
 ## [openset](https://github.com/HyeongminMoon/DeepLearningUtil/tree/main/openset)
 Open Set Recognition(OSR)에 관련된 것들
 
