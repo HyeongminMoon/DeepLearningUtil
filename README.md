@@ -1,15 +1,6 @@
 # DeepLearningUtil
 딥러닝에 사용했던 유틸리티 함수들을 저장하는 문서
 
-## [dataset_utils](https://github.com/HyeongminMoon/DeepLearningUtil/tree/main/dataset_utils)
-dataset에 관련된 것들
-
-- ### Kinetics
-Kinetics Dataset 관련
-
-- ### OpenImagev6+
-Open Image Dataset v6+ 관련
-
 ## [augment_transform](https://github.com/HyeongminMoon/DeepLearningUtil/tree/main/augment_transform)
 Augmentation과 Transform에 관련된 것들
 

@@ -1,4 +1,6 @@
-- ### copy_paste_aug.ipynb
+# augment_transform
+
+- ## copy_paste_aug.ipynb
 copy-paste augmentation을 구현. 아직은 범용성이 낮지만, 인수를 받아 여러 선택작업을 할 수 있게 하는 것이 목표
 
 * label은 bounding box(detection)를 뜻하고, mask는 segmentation을 뜻함
@@ -19,5 +21,5 @@ copy-paste augmentation을 구현. 아직은 범용성이 낮지만, 인수를 �
 3. (미구현) coco format(xywh)
 * (참고) open image dataset은 특이하게도 xxyy로 되어있음
 
-- ### custom_transforms.py
+- ## custom_transforms.py
 U2Net기반으로 사용했던 custom transform 함수들을 작성해놓은 코드
