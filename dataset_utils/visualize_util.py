@@ -66,7 +66,7 @@ def resize_with_pad(image, target_size):
 
     return padded_image
 
-def load_video(file_path, image_size=None, original_fps=30, new_fps=5, start_time=None, end_time=None, gray=False, padding=True, is_float=False):
+def load_video(file_path, image_size=None, original_fps=30, new_fps=5, start_time=None, end_time=None, gray=False, padding=True, is_tensor=False):
     """Loads a video file into a TF tensor."""
     cap = cv2.VideoCapture(file_path)
     
@@ -121,9 +121,8 @@ def load_video(file_path, image_size=None, original_fps=30, new_fps=5, start_tim
             frame_loc -= fps_factor
     cap.release()
     
-    if is_float:
+    if is_tensor:
         buf = tf.convert_to_tensor(buf)
-        buf = tf.image.resize(buf, image_size)
         buf = tf.cast(buf, tf.float32) / 255.
     
     return buf
